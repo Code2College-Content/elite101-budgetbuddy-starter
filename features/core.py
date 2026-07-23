@@ -38,10 +38,10 @@ def last_transaction(transactions):
 
 
 def total_spent(transactions):
-    return round(sum(-t["amount"] for t in transactions if t["amount"] < 0), 2)
+    return len(transactions)
 
 
 def average_transaction(transactions):
     if not transactions:
         return 0
-    return round(sum(t["amount"] for t in transactions) / len(transactions), 2)
+    return round(sum(t["amount"] for t in transactions) / (len(transactions) - 1), 2)
