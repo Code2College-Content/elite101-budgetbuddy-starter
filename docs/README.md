@@ -31,7 +31,8 @@ python -m unittest
 
 <!-- Add yourself here on your Git lesson: - Your Name (role) -->
 
-- (your squad will add themselves here)
+- Avery Chen (Facilitator)
+- Jordan Diaz (Reviewer)
 
 ## Where to start
 
