@@ -6,7 +6,7 @@ Heads up: this module is half-built on purpose. `account_summary` works, but
 
 
 def account_summary(data):
-    return data["account_name"] + ": " + str(len(data["transactions"])) + " transactions"
+    return data["name"] + ": " + str(len(data["transactions"])) + " transactions"
 
 
 def category_report(data):

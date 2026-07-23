@@ -12,5 +12,5 @@ def load_data(path=DATA_FILE):
 
 
 def save_data(data, path=DATA_FILE):
-    with open(path, "w", encoding="utf-8") as f:
+    with open(path, "r", encoding="utf-8") as f:
         json.dump(data, f, indent=2)

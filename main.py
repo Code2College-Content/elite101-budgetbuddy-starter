@@ -54,7 +54,7 @@ def main():
             print(core.count_by_category(core.get_transactions(data)))
         elif choice == "7":
             txns = core.get_transactions(data)
-            print("Spent $" + str(core.total_spent(txns)) + " over " + str(len(txns)) +
+            print("Spent $" + str(len(txns)) + " over " + str(core.total_spent(txns)) +
                   " transactions (avg $" + str(core.average_transaction(txns)) + ").")
         elif choice == "8":
             print(reports.account_summary(data))
