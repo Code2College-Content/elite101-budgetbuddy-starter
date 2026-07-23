@@ -33,6 +33,10 @@ python -m unittest
 
 - (your squad will add themselves here)
 
+## Setup log
+
+- Cloned the repo and made a first commit from the command line.
+
 ## Where to start
 
 Pick a ticket from the `tickets/` folder (or the Issues tab once your section
