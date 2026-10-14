@@ -2,6 +2,7 @@
 
 
 def get_transactions(data):
+    """Return the list of all transaction records from the data."""
     return data["transactions"]
 
 
